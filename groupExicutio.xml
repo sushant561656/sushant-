@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+<!-- 		<include name="smoke"></include> -->
+		<exclude name="regration"></exclude>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="travalingApplications.abhiBus" />
+			<class name="travalingApplications.agoda" />
+			<class name="travalingApplications.redbBus" />
+			<class name="ecomerceApplication.Agio" />
+			<class name="ecomerceApplication.mintra" />
+			<class name="ecomerceApplication.amezon" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="Test" parallel="classes">
+    <classes>
+      <class name="travalingApplications.abhiBus"/>
+      <class name="travalingApplications.agoda"/>
+      <class name="ecomerceApplication.Agio"/>
+      <class name="ecomerceApplication.mintra"/>
+      <class name="ecomerceApplication.amezon"/>
+      <class name="travalingApplications.redbBus"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
